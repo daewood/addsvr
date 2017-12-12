@@ -17,6 +17,7 @@ avoided: prefer moving that logic to consumers, and relying on
 to detect incompatibilities.
 
 $ cd $GOPATH/src/
+
 $ git clone https://github.com/daewood/addsvr.git addsvc
 
 $ cd addsvc/cmd/addcli
