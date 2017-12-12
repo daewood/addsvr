@@ -28,9 +28,9 @@ $ go build
 
 ./addsvc
 
-#addcli
+#addcli: open another ternimal
 
-$ cd ../addcli
+$ cd $GOPATH/src/addsvc/cmd/addcli
 
 $ go build
 
