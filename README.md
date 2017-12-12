@@ -20,7 +20,17 @@ $ cd $GOPATH/src/
 
 $ git clone https://github.com/daewood/addsvr.git addsvc
 
-$ cd addsvc/cmd/addcli
+#addsvc
+
+$ cd addsvc/cmd/addsvc
+
+$ go build
+
+./addsvc
+
+#addcli
+
+$ cd ../addcli
 
 $ go build
 
